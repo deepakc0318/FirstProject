@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-skipped">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,  3 skipped,  20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day45.ParamTest" class="method navigator-link" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day45.ParamTest" class="method navigator-link" hash-for-method="testTitle">testTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day45.ParamTest" class="method navigator-link" hash-for-method="testURL">testURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day42.Testng" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day44.LoginTests" class="method navigator-link" hash-for-method="loginByEmail">loginByEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day44.LoginTests" class="method navigator-link" hash-for-method="loginByFacebook">loginByFacebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day44.LoginTests" class="method navigator-link" hash-for-method="loginByTwitter">loginByTwitter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day42.Testng" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day42.Testng" class="method navigator-link" hash-for-method="openapp">openapp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day42.OrangeHrmTest" class="method navigator-link" hash-for-method="openapp">openapp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day44.PaymentsTests" class="method navigator-link" hash-for-method="paymentInDollars">paymentInDollars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day44.PaymentsTests" class="method navigator-link" hash-for-method="paymentInRuppees">paymentInRuppees</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day44.SignupTests" class="method navigator-link" hash-for-method="signupByEmail">signupByEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day44.SignupTests" class="method navigator-link" hash-for-method="signupByFacebook">signupByFacebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day44.SignupTests" class="method navigator-link" hash-for-method="signupByTwitter">signupByTwitter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day47.LoginTest" class="method navigator-link" hash-for-method="testLogin(xyz@gmail.com, test012)">testLogin(xyz@gmail.com, test012)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day47.LoginTest" class="method navigator-link" hash-for-method="testLogin(deepakc0318@gmail.com, Deepakc0318@)">testLogin(deepakc0318@gmail.com, Deepakc0318@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day47.LoginTest" class="method navigator-link" hash-for-method="testLogin(jphncanedy@gmail.com, test)">testLogin(jphncanedy@gmail.com, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day47.LoginTest" class="method navigator-link" hash-for-method="testLogin(john@gmail.com, test@123)">testLogin(john@gmail.com, test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day47.LoginTest" class="method navigator-link" hash-for-method="testLogin(pavanol123@gmai.com, test@123)">testLogin(pavanol123@gmai.com, test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day42.OrangeHrmTest" class="method navigator-link" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day42.OrangeHrmTest" class="method navigator-link" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="day42.OrangeHrmTest" class="method navigator-link" hash-for-method="testLogout">testLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">day45.ParamTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogo">
+                  </a> <!-- testLogo -->
+                  <span class="method-name">testLogo</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTitle">
+                  </a> <!-- testTitle -->
+                  <span class="method-name">testTitle</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testURL">
+                  </a> <!-- testURL -->
+                  <span class="method-name">testURL</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day47.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(xyz@gmail.com, test012)">
+                  </a> <!-- testLogin(xyz@gmail.com, test012) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(xyz@gmail.com,test012)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(deepakc0318@gmail.com, Deepakc0318@)">
+                  </a> <!-- testLogin(deepakc0318@gmail.com, Deepakc0318@) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(deepakc0318@gmail.com,Deepakc0318@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(jphncanedy@gmail.com, test)">
+                  </a> <!-- testLogin(jphncanedy@gmail.com, test) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(jphncanedy@gmail.com,test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(john@gmail.com, test@123)">
+                  </a> <!-- testLogin(john@gmail.com, test@123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(john@gmail.com,test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(pavanol123@gmai.com, test@123)">
+                  </a> <!-- testLogin(pavanol123@gmai.com, test@123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(pavanol123@gmai.com,test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day42.Testng</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openapp">
+                  </a> <!-- openapp -->
+                  <span class="method-name">openapp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day44.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginByEmail">
+                  </a> <!-- loginByEmail -->
+                  <span class="method-name">loginByEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginByFacebook">
+                  </a> <!-- loginByFacebook -->
+                  <span class="method-name">loginByFacebook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginByTwitter">
+                  </a> <!-- loginByTwitter -->
+                  <span class="method-name">loginByTwitter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day42.OrangeHrmTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openapp">
+                  </a> <!-- openapp -->
+                  <span class="method-name">openapp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin">
+                  </a> <!-- testLogin -->
+                  <span class="method-name">testLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogo">
+                  </a> <!-- testLogo -->
+                  <span class="method-name">testLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogout">
+                  </a> <!-- testLogout -->
+                  <span class="method-name">testLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day44.PaymentsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentInDollars">
+                  </a> <!-- paymentInDollars -->
+                  <span class="method-name">paymentInDollars</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentInRuppees">
+                  </a> <!-- paymentInRuppees -->
+                  <span class="method-name">paymentInRuppees</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day44.SignupTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signupByEmail">
+                  </a> <!-- signupByEmail -->
+                  <span class="method-name">signupByEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signupByFacebook">
+                  </a> <!-- signupByFacebook -->
+                  <span class="method-name">signupByFacebook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signupByTwitter">
+                  </a> <!-- signupByTwitter -->
+                  <span class="method-name">signupByTwitter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;day21.FirstTestCase&quot;/&gt;
+      &lt;class name=&quot;day42.OrangeHrmTest&quot;/&gt;
+      &lt;class name=&quot;day42.Testng&quot;/&gt;
+      &lt;class name=&quot;day44.LoginTests&quot;/&gt;
+      &lt;class name=&quot;day44.PaymentsTests&quot;/&gt;
+      &lt;class name=&quot;day44.SignupTests&quot;/&gt;
+      &lt;class name=&quot;day45.ParamTest&quot;/&gt;
+      &lt;class name=&quot;day47.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">paymentInDollars</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">paymentInRuppees</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">paymentInDollars</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">paymentInRuppees</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">signupByEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">signupByFacebook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">signupByTwitter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginByEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginByFacebook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginByTwitter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">paymentInDollars</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">paymentInRuppees</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'openapp')
+data.setCell(0, 2, 'day42.OrangeHrmTest')
+data.setCell(0, 3, 14886);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLogo')
+data.setCell(1, 2, 'day42.OrangeHrmTest')
+data.setCell(1, 3, 7320);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLogin')
+data.setCell(2, 2, 'day47.LoginTest')
+data.setCell(2, 3, 2015);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLogin')
+data.setCell(3, 2, 'day47.LoginTest')
+data.setCell(3, 3, 1582);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLogin')
+data.setCell(4, 2, 'day47.LoginTest')
+data.setCell(4, 3, 1575);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLogin')
+data.setCell(5, 2, 'day47.LoginTest')
+data.setCell(5, 3, 1533);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLogin')
+data.setCell(6, 2, 'day47.LoginTest')
+data.setCell(6, 3, 1524);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLogout')
+data.setCell(7, 2, 'day42.OrangeHrmTest')
+data.setCell(7, 3, 334);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLogin')
+data.setCell(8, 2, 'day42.OrangeHrmTest')
+data.setCell(8, 3, 196);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'openapp')
+data.setCell(9, 2, 'day42.Testng')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signupByEmail')
+data.setCell(10, 2, 'day44.SignupTests')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'signupByFacebook')
+data.setCell(11, 2, 'day44.SignupTests')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'paymentInDollars')
+data.setCell(12, 2, 'day44.PaymentsTests')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginByTwitter')
+data.setCell(13, 2, 'day44.LoginTests')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'logout')
+data.setCell(14, 2, 'day42.Testng')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'paymentInRuppees')
+data.setCell(15, 2, 'day44.PaymentsTests')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'login')
+data.setCell(16, 2, 'day42.Testng')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginByFacebook')
+data.setCell(17, 2, 'day44.LoginTests')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginByEmail')
+data.setCell(18, 2, 'day44.LoginTests')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'signupByTwitter')
+data.setCell(19, 2, 'day44.SignupTests')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testLogo')
+data.setCell(20, 2, 'day45.ParamTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testURL')
+data.setCell(21, 2, 'day45.ParamTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testTitle')
+data.setCell(22, 2, 'day45.ParamTest')
+data.setCell(22, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">day42.OrangeHrmTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openapp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogo</span>
+                <span class="method-start">14891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin</span>
+                <span class="method-start">22211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogout</span>
+                <span class="method-start">22407 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day42.Testng</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openapp</span>
+                <span class="method-start">22742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">22745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">22747 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day44.LoginTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginByEmail</span>
+                <span class="method-start">22750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginByFacebook</span>
+                <span class="method-start">22754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginByTwitter</span>
+                <span class="method-start">22755 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day44.PaymentsTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">paymentInRuppees</span>
+                <span class="method-start">22757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">paymentInDollars</span>
+                <span class="method-start">22759 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day44.SignupTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">signupByEmail</span>
+                <span class="method-start">22764 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signupByFacebook</span>
+                <span class="method-start">22766 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signupByTwitter</span>
+                <span class="method-start">22769 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day47.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22792 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(deepakc0318@gmail.com, Deepakc0318@)</span>
+                <span class="method-start">25479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(xyz@gmail.com, test012)</span>
+                <span class="method-start">27494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(john@gmail.com, test@123)</span>
+                <span class="method-start">29077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(pavanol123@gmai.com, test@123)</span>
+                <span class="method-start">30601 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(jphncanedy@gmail.com, test)</span>
+                <span class="method-start">32134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33709 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
